@@ -1,0 +1,80 @@
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false*/
+/************************* TAG SELECTORS *************************/
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #500000;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 0 1rem;
+  box-sizing: border-box;
+	display: block;
+  margin: 0;
+  min-height: 100px;
+	padding: 5px 0;
+	position: relative;
+	width: 100%;
+}
+
+li {
+  border: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+	position: relative;
+}
+
+ul {
+  border: 0;
+	box-sizing: border-box;
+	display: inline-block;
+  list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/************************ CLASS SELECTORS ************************/
+.header-flex-container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 30px;
+}
+
+.header-flex-container div {
+  width: 33%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.phone-number {
+  border: 0;
+	box-sizing: border-box;
+  color: #fff;
+	display: inline-block;
+  font-family: sans-serif;
+	font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+
+.phone-number a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links {
+	box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 15px;
+}
+
+
+/************************* ID SELECTORS *************************/
