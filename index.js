@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let ctaBanner = document.querySelector('.cta-banner');
 
     if (document.body.scrollTop > headerHeight || document.documentElement.scrollTop > headerHeight) {
-      ctaBanner.style.display = 'block';
+      ctaBanner.classList.toggle('invisible', false);
     } else {
-      ctaBanner.style.display = 'none';
+      ctaBanner.classList.toggle('invisible', true);
     }
   });
 });
