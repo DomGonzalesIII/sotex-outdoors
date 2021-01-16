@@ -1,6 +1,9 @@
 /*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false*/
 /************************* TAG SELECTORS *************************/
 body {
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
   margin: 0;
 }
 
@@ -16,25 +19,59 @@ header {
 	width: 100%;
 }
 
-li {
-  border: 0;
+h1 {
+	border: 0;
 	box-sizing: border-box;
-	display: inline-block;
-	margin: 0;
-	padding: 0 5px;
+  color: #fff;
+	font-size: 5.5em;
+	font-weight: 800;
+  margin: 0;
+	padding: 0;
+	text-shadow: rgba(43, 40, 40, 0.77) 4px 5px 5px;
+}
+
+h2 {
+	border: 0;
+	box-sizing: border-box;
+	font-size: 4em;
+  margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h3 {
+	border: 0;
+	box-sizing: border-box;
+	font-size: 2em;
+	font-weight: bold;
+  margin: 0;
+	padding: 0 0 15px;
 	position: relative;
 }
 
-ul {
-  border: 0;
-	box-sizing: border-box;
-	display: inline-block;
-  list-style: none;
-	margin: 0;
-	padding: 0;
-}
 
 /************************ CLASS SELECTORS ************************/
+.caption {
+  border: 0;
+  bottom: 10%;
+  box-sizing: border-box;
+  left: 0;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+
+.caption-container {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+  max-width: 100%;
+	padding: 0 30px;
+	width: 1270px;
+}
+
 .header-flex-container {
   align-items: flex-start;
   display: flex;
@@ -57,7 +94,6 @@ ul {
 	box-sizing: border-box;
   color: #fff;
 	display: inline-block;
-  font-family: sans-serif;
 	font-size: 1.5em;
   margin: 0;
   padding: 0;
@@ -74,6 +110,80 @@ ul {
   display: flex;
   justify-content: flex-end;
   padding-top: 15px;
+}
+
+.social-links ul {
+  border: 0;
+	box-sizing: border-box;
+	display: inline-block;
+  list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social-links li {
+  border: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+	position: relative;
+}
+
+.species-caption {
+  box-sizing: border-box;
+  height: 430px;
+	margin: 0;
+  margin-top: 5px;
+	padding: 35px 10px 50px;
+}
+
+.species-caption p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-size: 1em;
+	text-align: justify;
+}
+
+.species-container {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+  max-width: 100%;
+	padding: 0 30px;
+	width: 1270px;
+}
+
+.species-container ul {
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+	margin: 0;
+	padding: 0;
+  padding-top: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.species-container li {
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 700px;
+	margin: 0 5px;
+	padding: 0;
+  width: 30%;
+}
+
+.species-section {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 60px 0;
 }
 
 
