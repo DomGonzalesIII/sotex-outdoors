@@ -1,4 +1,4 @@
-/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false*/
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false, unique-headings: false*/
 /************************* TAG SELECTORS *************************/
 body {
   background-color: #fff;
@@ -51,6 +51,55 @@ h3 {
 
 
 /************************ CLASS SELECTORS ************************/
+.about-section {
+  background: #fff url("img/about-pat-background.png");
+  background-color: light-blue;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  box-sizing: border-box;
+  height: 580px;
+  margin: 0;
+	padding: 70px 0 0;
+  position: relative;
+  width: 100%;
+}
+
+.about-container {
+  align-items: flex-end;
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+	margin: 0 auto;
+  max-width: 100%;
+	padding: 0 30px;
+  text-align: right;
+	width: 1270px;
+}
+
+.about-container h2 {
+  text-align: right;
+}
+
+.about-1 {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  padding-bottom: 85px;
+	width: 70%;
+}
+
+.about-2 {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+}
+
 .caption {
   border: 0;
   bottom: 10%;
@@ -132,10 +181,10 @@ h3 {
 
 .species-caption {
   box-sizing: border-box;
-  height: 430px;
+  height: 300px;
 	margin: 0;
   margin-top: 5px;
-	padding: 35px 10px 50px;
+	padding: 35px 10px;
 }
 
 .species-caption p {
@@ -183,8 +232,5 @@ h3 {
   border: 0;
 	box-sizing: border-box;
 	margin: 0;
-	padding: 60px 0;
+	padding: 60px 0 20px 0;
 }
-
-
-/************************* ID SELECTORS *************************/
