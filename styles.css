@@ -7,6 +7,17 @@ body {
   margin: 0;
 }
 
+footer {
+  background-color: #500000;
+  box-sizing: border-box;
+	display: block;
+  margin: 0;
+  min-height: 50px;
+	padding: 5px 0;
+	position: relative;
+	width: 100%;
+}
+
 header {
   background-color: #500000;
   box-shadow: rgba(0, 0, 0, 0.6) 0 0 1rem;
@@ -104,6 +115,11 @@ h3 {
   font-size: 3em;
 }
 
+.big {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 .call-to-action {
   background-color: #f7f7f7;
   border: 0;
@@ -176,6 +192,10 @@ h3 {
 	width: 1270px;
 }
 
+.credit {
+  color: #fff;
+}
+
 .cta-banner {
   background: rgb(59, 59, 59);
   background-color: #500000;
@@ -241,6 +261,14 @@ h3 {
   height: 100%;
   margin: 0 15px;
   padding: 0;
+}
+
+.footer-container {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header-flex-container {
