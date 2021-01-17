@@ -1,4 +1,4 @@
-/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false, unique-headings: false*/
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false, unique-headings: false, universal-selector: false*/
 /************************* TAG SELECTORS *************************/
 body {
   background-color: #fff;
@@ -102,6 +102,57 @@ h3 {
 
 .about-2 h3 {
   font-size: 3em;
+}
+
+.call-to-action {
+  background-color: #f7f7f7;
+  border: 0;
+  box-sizing: border-box;
+  color: #333;
+  margin: 0;
+  padding: 30px 0 35px 0;
+}
+
+.call-to-action-button {
+  box-shadow: -3px 3px 10px 0 #663300;
+	background-color:#ffcc00;
+	border-radius:28px;
+	border:1px solid #cc9900;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:20px 36px;
+	text-decoration:none;
+	text-shadow:-1px 1px 1px #ff9900;
+}
+
+.call-to-action-button:hover {
+	background-color:#ffcc99;
+}
+
+.call-to-action-button:active {
+	position:relative;
+	top:1px;
+}
+
+.call-to-action-container {
+  align-items: center;
+  border: 0;
+	box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	margin: 0 auto;
+  max-width: 100%;
+	padding: 0 30px;
+	width: 1270px;
+}
+
+.call-to-action-container p {
+  margin: 5px 0 40px 0;
 }
 
 .caption {
@@ -229,6 +280,10 @@ h3 {
   text-decoration: none;
 }
 
+.reviewer img {
+  border-radius: 50%;
+}
+
 .social-links {
 	box-sizing: border-box;
   display: flex;
@@ -271,26 +326,14 @@ h3 {
 	text-align: justify;
 }
 
-.species-container {
+.species-container,
+.testimonial {
   border: 0;
 	box-sizing: border-box;
 	margin: 0 auto;
   max-width: 100%;
 	padding: 0 30px;
 	width: 1270px;
-}
-
-.species-container ul {
-  border: 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-	margin: 0;
-	padding: 0;
-  padding-top: 30px;
-	position: relative;
-	text-align: center;
 }
 
 .species-container li {
@@ -303,9 +346,43 @@ h3 {
   width: 30%;
 }
 
+.species-container ul,
+.testimonial-container ul {
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+	margin: 0;
+	padding: 0;
+  padding-top: 30px;
+	position: relative;
+	text-align: center;
+}
+
 .species-section {
   border: 0;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 60px 0 20px 0;
+}
+
+.testimonial-container h4, h5 {
+  margin: 5px;
+}
+
+.testimonial-container li {
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+	margin: 0 5px;
+	padding: 0;
+  width: 30%;
+}
+
+.testimonial-section {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 50px 0 60px 0;
 }
