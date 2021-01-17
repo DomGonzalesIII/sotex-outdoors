@@ -292,6 +292,40 @@ h3 {
   justify-content: center;
 }
 
+.maps-container li,
+.testimonial-container li {
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+	margin: 0 5px;
+	padding: 0;
+  width: 30%;
+}
+
+
+.maps-container ul,
+.species-container ul,
+.testimonial-container ul {
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+	margin: 0;
+	padding: 0;
+  padding-top: 30px;
+	position: relative;
+	text-align: center;
+}
+
+.maps-section,
+.testimonial-section {
+  border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 50px 0 60px 0;
+}
+
 .phone-number {
   border: 0;
 	box-sizing: border-box;
@@ -374,20 +408,6 @@ h3 {
   width: 30%;
 }
 
-.species-container ul,
-.testimonial-container ul {
-  border: 0;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-	margin: 0;
-	padding: 0;
-  padding-top: 30px;
-	position: relative;
-	text-align: center;
-}
-
 .species-section {
   border: 0;
 	box-sizing: border-box;
@@ -397,20 +417,4 @@ h3 {
 
 .testimonial-container h4, h5 {
   margin: 5px;
-}
-
-.testimonial-container li {
-  border: 0;
-  box-sizing: border-box;
-  display: inline-block;
-	margin: 0 5px;
-	padding: 0;
-  width: 30%;
-}
-
-.testimonial-section {
-  border: 0;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 50px 0 60px 0;
 }
