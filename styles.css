@@ -143,8 +143,33 @@ h3 {
 }
 
 .cta-banner-container {
+  align-items: center;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
   display: flex;
   justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.cta-banner-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cta-banner-container li {
+  border: 0;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0;
+	padding: 0 5px;
+	position: relative;
+}
+
+.cta-banner-container span {
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .cta-banner-container ul {
@@ -156,13 +181,15 @@ h3 {
 	padding: 0;
 }
 
-.cta-banner-container li {
+.cta-phone-number {
   border: 0;
 	box-sizing: border-box;
+  color: #fff;
 	display: inline-block;
-	margin: 0;
-	padding: 0 5px;
-	position: relative;
+	font-size: 2em;
+  height: 100%;
+  margin: 0 15px;
+  padding: 0;
 }
 
 .header-flex-container {
