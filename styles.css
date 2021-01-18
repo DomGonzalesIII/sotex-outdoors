@@ -1,4 +1,4 @@
-/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false, unique-headings: false, universal-selector: false*/
+/*csslint empty-rules: false, ids: false, qualified-headings: false, known-properties: false, box-sizing: false, unique-headings: false, universal-selector: false, outline-none: false*/
 /************************* TAG SELECTORS *************************/
 body {
   background-color: #fff;
@@ -60,8 +60,26 @@ h3 {
 	position: relative;
 }
 
+li:focus {
+  outline: none;
+}
+
 
 /************************ CLASS SELECTORS ************************/
+
+.about-container {
+  align-items: flex-end;
+  border: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+	margin: 0 auto;
+  max-width: 100%;
+	padding: 0 30px;
+  text-align: right;
+	width: 1270px;
+}
+
 .about-section {
   background: #fff url("img/about-pat-background.png");
   background-color: light-blue;
@@ -75,19 +93,6 @@ h3 {
 	padding: 70px 0 0;
   position: relative;
   width: 100%;
-}
-
-.about-container {
-  align-items: flex-end;
-  border: 0;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-	margin: 0 auto;
-  max-width: 100%;
-	padding: 0 30px;
-  text-align: right;
-	width: 1270px;
 }
 
 .about-1 {
@@ -113,6 +118,19 @@ h3 {
 
 .about-2 h3 {
   font-size: 3em;
+}
+
+.arrow{
+  font-size: 5em;
+  flex: 1;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  font-weight: bold;
 }
 
 .big {
@@ -154,7 +172,8 @@ h3 {
 	top:1px;
 }
 
-.call-to-action-container {
+.call-to-action-container,
+.photos-container {
   align-items: center;
   border: 0;
 	box-sizing: border-box;
@@ -340,6 +359,28 @@ h3 {
 .phone-number a {
   color: #fff;
   text-decoration: none;
+}
+
+.photo {
+  justify-content: center;
+  display: flex;
+  height: 400px;
+  width: 750px;
+}
+
+.photos {
+  align-items: center;
+  display: flex;
+}
+
+.photos-section {
+  background-color: green;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+	padding: 70px 0 70px 0;
+  position: relative;
+  width: 100%;
 }
 
 .reviewer img {
